@@ -13,12 +13,12 @@ public class CalculateTest {
 	
 	@Test
 	public void testsubstract(){
-		assertEquals(2,new Calculate().substract(5, 3));
+		assertEquals(8,new Calculate().substract(5, 3));
 	}
 	
 	@Test
 	public void testcheng(){
-		assertEquals(15,new Calculate().cheng(5, 3));
+		assertEquals(7,new Calculate().cheng(5, 3));
 	}
 	@Test
 	public void testchu(){
